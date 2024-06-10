@@ -8,6 +8,7 @@ export type EventWhereInput = {
   description?: StringNullableFilter;
   endTime?: StringNullableFilter;
   id?: StringFilter;
+  imageUrl?: StringNullableFilter;
   livestreams?: LivestreamListRelationFilter;
   name?: StringNullableFilter;
   startTime?: StringNullableFilter;

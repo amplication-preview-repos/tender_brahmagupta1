@@ -22,6 +22,7 @@ export const MemberShow = (props: ShowProps): React.ReactElement => {
         <TextField label="ID" source="id" />
         <TextField label="Name" source="name" />
         <TextField label="PhoneNumber" source="phoneNumber" />
+        <TextField label="ProfileImageUrl" source="profileImageUrl" />
         <DateField source="updatedAt" label="Updated At" />
         <ReferenceManyField
           reference="Appointment"

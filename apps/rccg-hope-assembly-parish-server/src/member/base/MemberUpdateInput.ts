@@ -61,6 +61,17 @@ class MemberUpdateInput {
     nullable: true,
   })
   phoneNumber?: string | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  profileImageUrl?: string | null;
 }
 
 export { MemberUpdateInput as MemberUpdateInput };

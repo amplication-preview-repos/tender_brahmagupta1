@@ -8,4 +8,5 @@ export type MemberWhereInput = {
   id?: StringFilter;
   name?: StringNullableFilter;
   phoneNumber?: StringNullableFilter;
+  profileImageUrl?: StringNullableFilter;
 };

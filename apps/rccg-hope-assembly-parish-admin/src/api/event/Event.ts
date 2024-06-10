@@ -6,6 +6,7 @@ export type Event = {
   description: string | null;
   endTime: string | null;
   id: string;
+  imageUrl: string | null;
   livestreams?: Array<Livestream>;
   name: string | null;
   startTime: string | null;

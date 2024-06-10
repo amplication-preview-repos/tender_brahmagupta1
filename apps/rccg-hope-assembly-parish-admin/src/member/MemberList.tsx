@@ -17,6 +17,7 @@ export const MemberList = (props: ListProps): React.ReactElement => {
         <TextField label="ID" source="id" />
         <TextField label="Name" source="name" />
         <TextField label="PhoneNumber" source="phoneNumber" />
+        <TextField label="ProfileImageUrl" source="profileImageUrl" />
         <DateField source="updatedAt" label="Updated At" />
       </Datagrid>
     </List>

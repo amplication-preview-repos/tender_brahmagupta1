@@ -5,14 +5,14 @@ import { theme } from "./theme/theme";
 import Login from "./Login";
 import "./App.scss";
 import Dashboard from "./pages/Dashboard";
-import { LivestreamList } from "./livestream/LivestreamList";
-import { LivestreamCreate } from "./livestream/LivestreamCreate";
-import { LivestreamEdit } from "./livestream/LivestreamEdit";
-import { LivestreamShow } from "./livestream/LivestreamShow";
 import { EventList } from "./event/EventList";
 import { EventCreate } from "./event/EventCreate";
 import { EventEdit } from "./event/EventEdit";
 import { EventShow } from "./event/EventShow";
+import { LivestreamList } from "./livestream/LivestreamList";
+import { LivestreamCreate } from "./livestream/LivestreamCreate";
+import { LivestreamEdit } from "./livestream/LivestreamEdit";
+import { LivestreamShow } from "./livestream/LivestreamShow";
 import { AppointmentList } from "./appointment/AppointmentList";
 import { AppointmentCreate } from "./appointment/AppointmentCreate";
 import { AppointmentEdit } from "./appointment/AppointmentEdit";
@@ -52,18 +52,18 @@ const App = (): React.ReactElement => {
         loginPage={Login}
       >
         <Resource
-          name="Livestream"
-          list={LivestreamList}
-          edit={LivestreamEdit}
-          create={LivestreamCreate}
-          show={LivestreamShow}
-        />
-        <Resource
           name="Event"
           list={EventList}
           edit={EventEdit}
           create={EventCreate}
           show={EventShow}
+        />
+        <Resource
+          name="Livestream"
+          list={LivestreamList}
+          edit={LivestreamEdit}
+          create={LivestreamCreate}
+          show={LivestreamShow}
         />
         <Resource
           name="Appointment"

@@ -19,6 +19,7 @@ export const EventCreate = (props: CreateProps): React.ReactElement => {
         <DateTimeInput label="Date" source="date" />
         <TextInput label="Description" multiline source="description" />
         <TextInput label="EndTime" source="endTime" />
+        <TextInput label="ImageUrl" source="imageUrl" />
         <ReferenceArrayInput
           source="livestreams"
           reference="Livestream"

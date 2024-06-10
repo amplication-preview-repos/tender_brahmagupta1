@@ -6,5 +6,6 @@ export type MemberOrderByInput = {
   id?: SortOrder;
   name?: SortOrder;
   phoneNumber?: SortOrder;
+  profileImageUrl?: SortOrder;
   updatedAt?: SortOrder;
 };

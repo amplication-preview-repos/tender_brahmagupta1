@@ -66,6 +66,17 @@ class EventWhereInput {
 
   @ApiProperty({
     required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
+  imageUrl?: StringNullableFilter;
+
+  @ApiProperty({
+    required: false,
     type: () => LivestreamListRelationFilter,
   })
   @ValidateNested()

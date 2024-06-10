@@ -26,6 +26,7 @@ export const MemberEdit = (props: EditProps): React.ReactElement => {
         <TextInput label="Email" source="email" type="email" />
         <TextInput label="Name" source="name" />
         <TextInput label="PhoneNumber" source="phoneNumber" />
+        <TextInput label="ProfileImageUrl" source="profileImageUrl" />
       </SimpleForm>
     </Edit>
   );

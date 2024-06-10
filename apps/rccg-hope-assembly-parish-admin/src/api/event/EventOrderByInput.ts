@@ -6,6 +6,7 @@ export type EventOrderByInput = {
   description?: SortOrder;
   endTime?: SortOrder;
   id?: SortOrder;
+  imageUrl?: SortOrder;
   name?: SortOrder;
   startTime?: SortOrder;
   updatedAt?: SortOrder;

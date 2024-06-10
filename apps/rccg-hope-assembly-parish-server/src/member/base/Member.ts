@@ -76,6 +76,17 @@ class Member {
   phoneNumber!: string | null;
 
   @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  profileImageUrl!: string | null;
+
+  @ApiProperty({
     required: true,
   })
   @IsDate()

@@ -7,6 +7,19 @@ generator client {
   provider = "prisma-client-js"
 }
 
+model Event {
+  createdAt   DateTime     @default(now())
+  date        DateTime?
+  description String?
+  endTime     String?
+  id          String       @id @default(cuid())
+  imageUrl    String?
+  livestreams Livestream[]
+  name        String?
+  startTime   String?
+  updatedAt   DateTime     @updatedAt
+}
+
 model Livestream {
   createdAt DateTime @default(now())
   event     Event?   @relation(fields: [eventId], references: [id])
@@ -14,18 +27,6 @@ model Livestream {
   id        String   @id @default(cuid())
   updatedAt DateTime @updatedAt
   url       String?
-}
-
-model Event {
-  createdAt   DateTime     @default(now())
-  date        DateTime?
-  description String?
-  endTime     String?
-  id          String       @id @default(cuid())
-  livestreams Livestream[]
-  name        String?
-  startTime   String?
-  updatedAt   DateTime     @updatedAt
 }
 
 model Appointment {
@@ -39,13 +40,14 @@ model Appointment {
 }
 
 model Member {
-  appointments Appointment[]
-  createdAt    DateTime      @default(now())
-  email        String?
-  id           String        @id @default(cuid())
-  name         String?
-  phoneNumber  String?
-  updatedAt    DateTime      @updatedAt
+  appointments    Appointment[]
+  createdAt       DateTime      @default(now())
+  email           String?
+  id              String        @id @default(cuid())
+  name            String?
+  phoneNumber     String?
+  profileImageUrl String?
+  updatedAt       DateTime      @updatedAt
 }
 
 model User {

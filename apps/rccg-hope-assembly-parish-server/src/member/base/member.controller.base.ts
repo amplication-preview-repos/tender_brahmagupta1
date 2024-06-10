@@ -57,6 +57,7 @@ export class MemberControllerBase {
         id: true,
         name: true,
         phoneNumber: true,
+        profileImageUrl: true,
         updatedAt: true,
       },
     });
@@ -84,6 +85,7 @@ export class MemberControllerBase {
         id: true,
         name: true,
         phoneNumber: true,
+        profileImageUrl: true,
         updatedAt: true,
       },
     });
@@ -112,6 +114,7 @@ export class MemberControllerBase {
         id: true,
         name: true,
         phoneNumber: true,
+        profileImageUrl: true,
         updatedAt: true,
       },
     });
@@ -149,6 +152,7 @@ export class MemberControllerBase {
           id: true,
           name: true,
           phoneNumber: true,
+          profileImageUrl: true,
           updatedAt: true,
         },
       });
@@ -185,6 +189,7 @@ export class MemberControllerBase {
           id: true,
           name: true,
           phoneNumber: true,
+          profileImageUrl: true,
           updatedAt: true,
         },
       });

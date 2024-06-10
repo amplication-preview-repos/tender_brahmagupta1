@@ -5,4 +5,5 @@ export type MemberCreateInput = {
   email?: string | null;
   name?: string | null;
   phoneNumber?: string | null;
+  profileImageUrl?: string | null;
 };

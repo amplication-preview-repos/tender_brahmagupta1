@@ -7,5 +7,6 @@ export type Member = {
   id: string;
   name: string | null;
   phoneNumber: string | null;
+  profileImageUrl: string | null;
   updatedAt: Date;
 };

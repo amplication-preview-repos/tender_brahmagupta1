@@ -1,61 +1,61 @@
 [
   {
     "role": "user",
-    "resource": "Livestream",
+    "resource": "Event",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Livestream",
+    "resource": "Event",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Livestream",
+    "resource": "Event",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Livestream",
+    "resource": "Event",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Livestream",
+    "resource": "Event",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Event",
+    "resource": "Livestream",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Event",
+    "resource": "Livestream",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Event",
+    "resource": "Livestream",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Event",
+    "resource": "Livestream",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Event",
+    "resource": "Livestream",
     "action": "read:any",
     "attributes": "*"
   },

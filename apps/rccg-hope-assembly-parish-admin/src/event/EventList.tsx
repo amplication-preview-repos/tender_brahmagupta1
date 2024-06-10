@@ -17,6 +17,7 @@ export const EventList = (props: ListProps): React.ReactElement => {
         <TextField label="Description" source="description" />
         <TextField label="EndTime" source="endTime" />
         <TextField label="ID" source="id" />
+        <TextField label="ImageUrl" source="imageUrl" />
         <TextField label="Name" source="name" />
         <TextField label="StartTime" source="startTime" />
         <DateField source="updatedAt" label="Updated At" />
